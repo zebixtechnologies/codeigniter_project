@@ -1,0 +1,115 @@
+/* CSS Resets */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border:0;
+	margin:0;
+	padding:0
+}
+article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section, video, object {
+	display:block
+}
+a img {
+	border:0
+}
+figure {
+	position:relative
+}
+figure img {
+	width:100%
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.row {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.indentedrow {
+	width: 90%;
+	max-width: 1140px;
+	margin: 0 5%;
+	overflow: hidden;
+}
+.onecol, .onepointseverncol, .twocol, .twopointfourcol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+	margin-right: 3.8%;
+	float: left;
+}
+/* Added by TJ */
+.inner {
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+.nopadding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.onecol {
+	width: 4.85%;
+}
+.onepointseverncol {
+	width: 11.1%
+}
+.twocol {
+	width: 13.5%;
+}
+.twopointfourcol {
+	width: 16.9%
+}
+.threecol {
+	width: 22.15%;
+}
+.fourcol {
+	width: 30.8%;
+}
+.fivecol {
+	width: 39.45%;
+}
+.sixcol {
+	width: 48.1%;
+}
+.sevencol {
+	width: 56.75%;
+}
+.eightcol {
+	width: 65.4%;
+}
+.tencol {
+	width: 82.7%;
+}
+.ninecol {
+	width: 74.05%;
+}
+.elevencol {
+	width: 91.35%;
+}
+.twelvecol {
+	width: 100%;
+	float: left;
+}
+.last {
+	margin-right: 0px;
+}
+img, object, embed {
+	max-width: 100%;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+@media (max-width: 767px) {
+.container {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol ,.tencol,.ninecol,.elevencol,.twelvecol  {
+	width: 100%;
+	margin: 1% 0;
+	float:none;
+}
+	
+	
+}

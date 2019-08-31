@@ -1,0 +1,66 @@
+﻿/* CSS Document */
+body{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#827f7f;}
+.curv01-mid{ background:url(images/curv01-mid.gif) repeat-x;}
+.nav-bg{ font-size:14px; color:#ffd7e3;}
+.nav-bg ul{ margin:0px; padding:0px;}
+.nav-bg ul li{ display:inline; list-style:none;}
+.nav-bg ul li a{ height:29px; float:left; padding-left:15px; padding-right:15px; font-size:14px; color:#ffd7e3; text-decoration:none; padding-top:12px; background:url(images/nav-sep.gif) no-repeat right top;}
+.nav-bg ul li a:hover{ background:url(images/nav-hvr.gif) no-repeat right top; color:#ffffff;}
+.nav-bg ul li a.active{ background:url(images/nav-hvr.gif) no-repeat right top; color:#ffffff;}
+.curv02-mid{ background:url(images/curv02-mid.gif) repeat-x left top #efefef;}
+.work-report{ width:92px; height:102px; float:left;}
+.work-report a{width:92px; height:32px; float:left; background:url(images/work-report.gif) no-repeat; text-decoration:none; font-size:11px; font-weight:bold; color:#5c5c5c; text-align:center; padding-top:70px;}
+.work-report a:hover{ color:#a01111;}
+
+.admin-report{ width:92px; height:102px; float:left;}
+.admin-report a{width:92px; height:32px; float:left; background:url(images/admin-report.gif) no-repeat; text-decoration:none; font-size:11px; font-weight:bold; color:#5c5c5c; text-align:center; padding-top:70px;}
+.admin-report a:hover{ color:#a01111;}
+
+.invoice{ width:92px; height:102px; float:left;}
+.invoice a{width:92px; height:32px; float:left; background:url(images/invoice.gif) no-repeat; text-decoration:none; font-size:11px; font-weight:bold; color:#5c5c5c; text-align:center; padding-top:70px;
+	width: 92px;
+}
+.invoice a:hover{ color:#a01111;}
+
+.wl-curvmid{ background:url(images/wl-curvmid.gif) repeat-x;}
+.wl-curvmid h1{ margin:0px; padding:0px; font-size:18px; color:#000000; font-weight:normal;}
+.wl-curvmid a{ color:#f05840; text-decoration:none;}
+.shadow-bg{ background:url(images/shadow-bg.gif) no-repeat left bottom;}
+.grd-curv-mid{ background:url(images/grd-curvmid.gif) repeat-x;}
+.grd-curv-mid h1{ margin:0px; padding:0px; font-size:18px; font-weight:normal; color:#b2063b; font-weight:normal;}
+.grade-curv02{ background:url(images/grd-curvmid2.gif) repeat-x;}
+.grade-curv02 h1{ margin:0px; padding:0px; font-size:18px; font-weight:normal; color:#4b4b4b;}
+.sepline01{ background:url(images/sepline01.gif) no-repeat right top;}
+.sepline02{ background:url(images/sepline01.gif) no-repeat left top;}
+.view-details{ width:97px; height:20px; float:left;}
+.view-details a{ width:77px; height:20px; float:left; background:url(images/check01.gif) no-repeat left top; font-size:12px; color:#848484; text-decoration:none; padding-left:20px;}
+.view-details a:hover{ background:url(images/check02.gif) no-repeat left top; color:#c00c0b;}
+.graph-curv{ background:url(images/grf-curvright.gif) no-repeat right top #ffffff;}
+.cntrl-head{ background:url(images/crvhead.gif) no-repeat; height:36px; font-size:18px; color:#ffffff; font-weight:normal;}
+.control-link{ font-size:12px; color:#000000;}
+.control-link ul{ margin:0px; padding:0px;}
+.control-link ul li{ display:list-item; list-style:none;}
+.control-link ul li a{ width:190px; height:22px; float:left; font-size:12px; color:#000000; border-bottom:solid 1px #d9d9d9; text-decoration:none; padding-left:10px; padding-top:8px;}
+.control-link ul li a img{ border:none; float:left; padding-right:10px;}
+.control-link ul li a:hover{ color:#be182b;}
+
+.txtbox01{ width:243px; border:solid 1px #e8e7e7; background:#ffffff; font-size:11px; color:#827f7f;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.report-head{ background:url(images/report-head.gif) no-repeat; height:42px; background:url(images/report-head.gif) no-repeat; font-size:16px; color:#ffffff;}
+.grade02{ background:url(images/grade01.gif) repeat-x;}
+.rpt-grade{ background:url(images/rptcurv-mid.gif) repeat-x;}
+.bk-curvmid{ background:url(images/bk-curvmid.gif) repeat-x; color:#827f7f; font-size:11px;}
+.bk-curvmid h2{ margin:0px; padding:0px; font-size:12px; font-weight:bold; color:#4b4b4b;}
+.foot-curvmid{ background:url(images/foot-curvmid.gif) repeat-x; color:#a18a8f;}
+.foot-curvmid a{ color:#a18a8f; text-decoration:none;}
+.foot-curvmid a:hover{ color:#ffffff;}
+
+.tdHeading
+{
+    background-color:Gray;
+    color:White;
+    width: 95%;
+}

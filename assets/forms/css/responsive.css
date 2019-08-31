@@ -1,0 +1,202 @@
+.advertiser {
+    font-size: 11px !important;
+    font-weight: bold !important;
+    width: 560px !important;
+    margin-left: 5px;
+}
+.submit-container .tcpa{
+        padding: 0 15px 10px 6px !important;
+}
+.advertiser table tr td span{
+      position: relative;
+    display: inline-block;
+    line-height: 17px;
+}
+.advertiser table tr td span:after {
+    content: '';
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 3px;
+    background: #000;
+    z-index: 999;
+    bottom: 0px;
+}
+.advertiser table tr td:first-child{
+    text-align: left;
+}
+@media (min-width: 768px) and (max-width: 950px) {
+    .location #travel_location{
+            width: 35%;
+    min-width: auto;
+    }
+    
+	#page-container, .ff #page-container {
+		width: auto !important;
+	}
+	
+	#great-rates-img-container {
+		background-size: cover;
+		margin: -35px 0px 0px -30px;
+                    display: none;
+	}
+#is-form .quote-list {
+    width: 100%;
+}
+#main-form {
+    padding: 0px 0px 10px 250px;
+}
+#main-form form{
+	width:100%;
+}
+.advertiser {
+    width: auto !important;
+}
+.submit-container{
+	width: auto !important;
+}
+.submit-container .tcpa{
+	float: none !important;
+width: 100% !important;
+box-sizing: border-box !important;
+}
+#main-form form{
+	width:100%;
+	margin-bottom: 0 !important;
+}
+.advertiser {
+    width: auto !important;
+padding-bottom: 0px !important;
+overflow: hidden !important;
+}
+.advertiser table tr td {
+    width: 100% !important;
+    text-align: left !important;
+    display: block;
+    padding: 4px;
+}
+.advertiser table tr td input[type="checkbox"] {
+    float: left;
+}
+
+.submit-container > .submit-container{
+margin-top: 0px !important;    
+}
+}
+ 
+@media (max-width: 767px) {
+    
+.thanks {
+word-wrap: break-word;
+}
+.submit-container > .submit-container{
+margin-top: 0px !important;    
+}
+#page-container, .ff #page-container {
+    width: auto !important;
+}
+.thanks_quotestable {
+    overflow: auto;
+    width: 100%;
+}
+#main-form {
+    float: none;
+    width: 100%;
+	margin-top: 0px !important;
+}
+#main-form form{
+	width:100%;
+	margin-bottom: 0 !important;
+}
+#is-form .quote-list {
+    width: 100%;
+}
+.advertiser {
+    width: auto !important;
+padding-bottom: 0px !important;
+overflow: hidden !important;
+}
+.advertiser table tr td {
+    width: 100% !important;
+    text-align: left !important;
+    display: block;
+    padding: 4px;
+}
+.advertiser table tr td input[type="checkbox"] {
+    float: left;
+}
+#great-rates-img, 
+#great-rates-img-container {
+    position: absolute;
+    margin: -15px 0px 0px -16px;
+        display: none;
+}
+.submit-container{
+	width: auto !important;
+}
+.submit-container .tcpa{
+	float: none !important;
+width: 100% !important;
+box-sizing: border-box !important;
+}
+#sub-form {
+float: none;
+width: auto;
+margin-top : 0px;
+}
+#sub-form div{
+    display: none;
+}
+.advertiser table {
+width: 430px;
+}
+.landing-header h1{
+	margin: 18px 0px 0px !important;
+	width: auto !important;
+	font-size: 15px !important;
+}
+.pageheading h2 {
+    font-size: 16px;
+}
+#page-container h1 {
+    width: auto !important;
+}
+}
+ 
+@media (max-width: 600px) {
+    .location #location_name{
+        width: 100%;
+    }
+    .location #location_name input[type="text"]{
+        margin-top: 5px;
+    }
+#is-form .quote-list label {
+	display: block;
+	width: auto;
+	padding-bottom: 3px;
+}
+#is-form select {
+    width: 99%;
+    box-sizing: border-box;
+}
+
+#main-form input[type="text"], #main-form  input[type="password"] {
+    width: 99%;
+    box-sizing: border-box;
+}
+#page-container h1 {
+    width: auto !important;
+}
+}
+
+@media (max-width: 480px) {
+    
+#submit-anchor {
+    width: 227px;
+    background-size: cover;
+}
+#page-container, .ff #page-container  {
+    padding: 10px;
+}
+
+}

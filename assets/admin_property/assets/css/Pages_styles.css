@@ -1,0 +1,107 @@
+﻿.lblerror
+{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+}
+.chk label
+{
+    display: block;
+    line-height: 22px;
+    padding-left: 8px;
+    float: left;
+}
+.chk input[type="checkbox"]
+{
+    float: left;
+}
+.form_head
+{
+    font-size: 13px;
+    font-weight: bold;
+    width: 100% !important;
+    text-align: center !important;
+}
+.hold input[type="checkbox"]
+{
+    float: left;
+}
+.hold .label
+{
+    width: 20%;
+    margin-left: 25px;
+}
+.hold label
+{
+    float: left;
+    padding: 2px 0px 0px 5px;
+}
+.row-fluid .search_btn
+{
+    margin-top: -9px;
+}
+
+.address input[type="radio"]
+{
+    float: left;
+    
+}
+.address span.label:first-child
+{
+        margin-left:35px;
+}
+.address label
+{
+    float: left;
+    padding: 2px 5px 0px 5px;
+}
+.white
+{
+    background:none !important;
+    border:none !important;    
+}
+#main-heading
+{
+    font-size: 24px;
+color: #444;
+margin: 0;
+padding: 20px 40px;
+text-shadow: -1px -1px #F0F0F0;    
+}
+#main-heading span
+{
+    color: #777;
+font-size: 11px;
+font-weight: normal;
+padding-left: 6px;
+margin-left: 6px;
+text-shadow: none;
+border-left: 1px dotted #AAA;
+line-height: 1;    
+}
+.Select td
+{
+    background-color: #eee !important;
+}
+.select1 td
+{
+    background-color: #eee !important;
+}
+
+.dataTables_wrapper .dt_header, .dataTables_wrapper .dt_footer 
+{
+    	border-width:0 0px 0px 0px !important
+    	}
+    	
+.dataTables_wrapper .widget-content .table-container .table {
+	border: solid #CCC;
+	margin:0 ;
+	border-width: 1px 0px 1px 0px;
+}
+.btn_1
+{
+    width:330px;margin:0;position: absolute !important; min-width:100px; 
+}
+
+.btn_1 .scroll-width { overflow-x:auto !important; }

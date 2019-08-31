@@ -1,0 +1,318 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+h3.field_Title {
+	margin-bottom: 0px;
+	background: #636363;
+	font-weight: bold;
+	padding: 5px;
+	color: white;
+	text-shadow:none;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;	
+}
+/* jQuery Mobile Theme Form Elements */
+ul.tabs li {text-transform:uppercase;}
+.position-fixed {position:fixed;}
+
+.formContent{
+	width:400px;
+	margin:10px auto;
+	background:#fff;
+}
+.formContent .formLogo {
+	border-bottom: 2px solid #DDD;
+}
+.jqm .ui-btn-inner {
+	font-size: 0.9em;
+}
+.jqm {
+	border: 1px solid #DDD;
+	padding: 7px;
+	-webkit-box-shadow: 0px 0px 23px 0px #BBB;
+	-moz-box-shadow: 0px 0px 23px 0px #BBB;
+	-ms-box-shadow: 0px 0px 23px 0px #BBB;
+	-o-box-shadow: 0px 0px 23px 0px #BBB;
+	box-shadow: 0px 0px 23px 0px #BBB;
+	font-size: 14px;
+}
+
+.jqm ul{
+	margin: 0px;
+	padding:0px;
+	list-style:none;
+}
+
+.jqm ul li{
+	padding:0px;
+	margin:10px 0px;
+	position:relative;
+}
+
+/*.jqm ul li.active {
+	border:1px solid #aaa;
+	background:#f2f2f8;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+}*/
+.jqm ul li .element_div span.helpMark,
+.jqm ul li .element_div.threeinputs span.helpMark,
+.jqm ul li .element_div.fourinputs span.helpMark {
+	position: absolute;
+	right: 6px;
+	top: 5px;	
+	width:16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	display:none;
+}
+.jqm ul li .element_div label
+{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 4px;
+}
+.jqm ul li .element_div select {padding: 5px 6px; margin: 0 0 10px;}
+.jqm ul li .element_div.fourinputs select,
+.jqm ul li .element_div.fourinputs input{
+	width: 80%;
+	margin: 0 0 10px;
+}
+
+.jqm ul li .element_div.threeinputs input{
+	width: 88%;
+}
+.jqm ul li .element_div.fourinputs span{
+	display:inline-block;
+	vertical-align:top;
+	width:20%;
+}
+.jqm ul li .element_div.threeinputs span{
+	display:inline-block;
+	vertical-align:top;
+	width:24%;
+}
+
+.jqm ul li .element_div b.v_middle{
+	display:inline-block;
+	line-height: 23px;
+	font-weight:normal;
+	
+}
+.jqm ul li .element_div .pricename{
+	position:relative;
+}
+.jqm ul li .element_div .pricename.small {
+	width:auto;
+}
+.jqm ul li .element_div .pricename input[type="text"] {
+	margin: 0 4px;
+	display: inline-block;
+	vertical-align: middle;
+	width:80px;
+	
+}
+
+.jqm ul li .element_div span.two {
+	display:inline-block;
+	width: 49.2%;
+	vertical-align:top;
+}
+.jqm ul li .element_div span.two input[type="text"] {
+	width: 94%;
+}
+.jqm ul li .element_div span.two select{
+	width: 100%;
+}
+.jqm ul li .element_div.threeinputs input[type="text"],
+.jqm ul li .element_div.fourinputs input[type="text"] {
+	width: 85%;
+}
+
+.jqm ul li .element_div	label.primary {font-size:16px;}
+.jqm ul li .element_div	label.label_bottom{font-size:13px;}
+
+
+.jqm ul li .element_div span > label,
+.jqm ul li .element_div.twoinputs > label,
+.jqm ul li .element_div.threeinputs > label{
+	display:inline-block;
+	margin-bottom:5px;
+	
+}
+
+
+.jqm ul li .element_div{
+	padding:5px;
+}
+
+.jqm ul li .element_div .checkboxes_div {
+	display:block;
+}
+.jqm ul li .element_div .radio_div input,
+.jqm ul li .element_div .checkboxes_div input{ 
+margin-top:0px;
+}
+
+
+.jqm ul li .element_div .radio_div {
+	display:block;
+}
+
+.jqm ul li .element_div textarea,
+.jqm ul li .element_div select,
+.jqm ul li .element_div input[type="email"],
+.jqm ul li .element_div input[type="text"] {width:97%;}
+
+.jqm ul li .element_div textarea {margin-bottom:10px; resize:none;}
+
+.jqm ul li .element_div textarea.small { height:50px; width:100%}
+.jqm ul li .element_div textarea.medium { height:150px; width:100%}
+.jqm ul li .element_div textarea.large { height:200px; width:100%}
+
+.jqm ul li .element_div .small{
+	width:30%;
+	margin-bottom:0px;
+}
+
+.jqm ul li .element_div .medium {
+	width:60%;
+	margin-bottom:0px;
+}
+
+
+.jqm ul li .element_div .large  {
+	width:100%;
+	margin-bottom:0px;
+}
+
+ul.ListItems {
+	margin: 0px;
+	list-style:none;
+}
+
+ul.ListItems li{
+}
+.Break {
+	border-top: 1px solid #ddd;
+	color:#222;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	padding:0.8em 0.3em 0.3em 0.3em;
+	
+}
+
+
+/* Tooltip*/
+
+#tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #111;
+    position: absolute;
+    z-index: 9999;
+    padding: 8px;
+	border-radius:10px;
+}
+
+#tooltip .close {
+	position:absolute;
+	top:5px;
+	right:5px;
+	font-size:16px;
+	font-weight:bold;
+	
+}
+ 
+#tooltip:after /* triangle decoration */
+{
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #111;
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	margin-left: -10px;
+	content:" ";
+}
+
+#tooltip.top:after
+{
+	border-top-color: transparent;
+	border-bottom: 10px solid #111;
+	top: -20px;
+	bottom: auto;
+}
+
+#tooltip.left:after
+{
+	left: 10px;
+	margin: 0;
+}
+
+#tooltip.right:after
+{
+	right: 10px;
+	left: auto;
+	margin: 0;
+}
+.jqm input[type="submit"]{
+	padding:5px 15px;
+	color:white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+ }
+.jqm  .btn-success {
+background-color: #3fb04a;
+border-color: #347F32;
+background-image: -ms-linear-gradient(top, #3fb04a, #3c9b3b);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3FB04A), to(#3C9B3B));
+background-image: -webkit-linear-gradient(top, #3FB04A, #3C9B3B);
+background-image: -o-linear-gradient(top, #3fb04a, #3c9b3b);
+background-image: -moz-linear-gradient(top, #3fb04a, #3c9b3b);
+background-image: linear-gradient(top, #3fb04a, #3c9b3b);
+}
+.jqm .btn-success:hover, .jqm .btn-success:active,.jqm  .btn-success.active, .jqm .btn-success.disabled,.jqm  .btn-success[disabled] {
+background-color: #3C9B3B;
+}
+
+.jqm .btn-success:hover, .jqm .btn-success:active, .jqm .btn-success.active, .jqm .btn-success.disabled, .jqm .btn-success[disabled] {
+color: #FFF;
+background-color: #51A351;
+}
+
+.helpMark {display:none;}
+@media screen and (max-width:767px){
+
+
+}
+
+@media(max-width:480px){
+.formContent{
+	width:100%;
+	margin:10px auto;
+}
+
+.jqm ul li .element_div select,
+.jqm ul li .element_div span.two,
+.jqm ul li .element_div .small,
+.jqm ul li .element_div .medium,
+.jqm ul li .element_div .large {width:100% }
+
+.jqm ul li .element_div span.two input[type="text"] {width:97% }
+.jqm ul li .element_div textarea {padding: 2px 1px;}
+.jqm ul li .element_div.fourinputs span {width: 22%;}
+element_div.threeinputs input[type="text"], .jqm ul li .element_div.fourinputs input[type="text"] {width: 73%;}
+.jqm ul li .element_div.fourinputs select, .jqm ul li .element_div.fourinputs input {width: 105%;}
+
+
+}

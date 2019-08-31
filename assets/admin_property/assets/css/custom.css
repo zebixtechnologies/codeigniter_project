@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.gallery {
+	padding:12px 25px 0px 25px;
+
+}
+.gf-checkbox
+{
+margin: 0;
+}
+.gf-checkbox li
+{
+list-style: none;
+margin-bottom: 10px;
+}
+.gf-checkbox li label
+{
+display: inline-block;
+vertical-align: top;
+margin-bottom: 0;
+font-size: 16px;
+}
+.gf-checkbox li input[type="checkbox"]
+{
+margin: 0 10px 0 0;
+}
+.leg {position:relative}
+.leg .private_mark,
+.gallery .private_mark {background:url(../images/private_img.png) no-repeat top left; width:35px; height:35px; position:absolute; top:0; left:0px;}
+
+.leg .public_mark,
+.gallery .public_mark {background:url(../images/public_img.png) no-repeat top left; width:35px; height:35px; position:absolute; top:0; left:0px;}
+
+.leg .paid_mark,
+.gallery .paid_mark {background:url(../images/paid_img.png) no-repeat top left; width:35px; height:35px; position:absolute; top:0; left:0px;}
+
+
+i.private_mark_leg,
+i.public_mark_leg,
+i.paid_mark_leg
+{
+float:left;
+display: inline-block;
+line-height: 16px;
+vertical-align:middle;
+}
+
+
+i.private_mark_leg img,
+i.public_mark_leg img,
+i.paid_mark_leg img
+{
+	width:20px; height:20px; display:block;
+}
+
+
+.gallery .thumbnail
+{
+
+	position: relative;
+	
+	
+}

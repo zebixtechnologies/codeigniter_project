@@ -1,0 +1,45 @@
+Options -Indexes
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteBase /
+
+#Removes access to the system folder by users.
+#Additionally this will allow you to create a System.php controller,
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^www.keyverticals.com [NC]
+RewriteRule (.*) https://www.keyverticals.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+#When your application folder isn't in the system folder
+
+RewriteCond %{REQUEST_URI} ^application.*
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+#Checks to see if the user is attempting to access a valid file,
+#such as an image or css document, if this isn't true it sends the
+#request to index.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+# If we don't have mod_rewrite installed, all 404's
+# can be sent to index.php, and everything works as normal.
+# Submitted by: ElliotHaughin   
+
+ErrorDocument 404 /index.php
+
+# BEGIN GZIP
+
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+
+# END GZIP
+# Start CloudFlare:keyverticals.com rewrite. Do not Edit 
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^keyverticals.com 
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L] 
+# End CloudFlare rewrite. 
+

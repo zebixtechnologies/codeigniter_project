@@ -1,0 +1,143 @@
+
+<html>
+<head>
+<title>Best Rate Quotes from KeyVerticals</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<style type="text/css">
+          #loading {
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0px;
+
+            left: 0px;
+
+            position: fixed;
+
+            display: none;
+
+            opacity: 0.5;
+
+            background-color: #fff;
+
+            z-index: 99;
+
+            text-align: center;
+
+          }
+
+        #loading-image {
+
+          position: absolute;
+
+         top: 225px;
+          left: 580px;
+
+          z-index: 100;
+
+        }
+	</style>
+<script type="text/javascript">
+
+function getInternetExplorerVersion()
+// Returns the version of Internet Explorer or a -1
+// (indicating the use of another browser).
+{
+var rv = -1; // Return value assumes failure.
+if (navigator.appName == "Microsoft Internet Explorer")
+{
+    var ua = navigator.userAgent;
+    var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+    if (re.exec(ua) != null)
+    rv = parseFloat( RegExp.$1 );
+}
+return rv;
+}
+checkVersion();
+function checkVersion()
+{
+    var msg = "You are not using Internet Explorer.";
+    var ver = getInternetExplorerVersion();
+
+    if (ver > -1 )
+    {
+            if ( ver < 9.0 ){ 
+                msg ="You are using an outdated browser. Please upgrade your browser to improve your experience";
+				alert( msg );
+				}
+    }
+    
+}
+          
+function makeFrame(category_code,ni_str_state_code,ni_ad_client,ni_subad_client) { 
+	if(category_code==""){
+		category_code="0";
+	}
+        ifrm = document.createElement("IFRAME"); 
+        ifrm.setAttribute("src", "https://www.keyverticals.com/home/selectadvertiser/?category="+category_code+"&statecode="+ni_str_state_code+"&publisherid="+ni_ad_client+"&subpublisherid="+ni_subad_client);
+        ifrm.style.width = "100%"; 
+        ifrm.style.height = "100%"; 
+        ifrm.style.border = "none";
+        document.body.appendChild(ifrm); 
+   }
+    function makeFrame1(category_code,ni_str_state_code,ni_ad_client,ni_subad_client,ni_advertiserid) { 
+	if(category_code==""){
+		category_code="0";
+	}
+        
+        ifrm = document.createElement("IFRAME"); 
+        ifrm.setAttribute("src", "https://www.keyverticals.com/home/auto/?category="+category_code+"&statecode="+ni_str_state_code+"&publisherid="+ni_ad_client+"&subpublisherid="+ni_subad_client+"&userid="+ni_advertiserid);
+        ifrm.style.width = "100%"; 
+        ifrm.style.height = "100%"; 
+        ifrm.style.border = "none";
+        document.body.appendChild(ifrm); 
+   }
+  $(window).load(function (){
+    ni_ad_client = "119";
+    ni_subad_client="0";
+    ni_advertiserid="0";    
+    ni_str_state_code="";category_code="47";var params = {};
+    var ps = window.location.search.split(/\?|&/);
+    for (var i = 0; i < ps.length; i++) {
+        if (ps[i]) {
+            var p = ps[i].split(/=/);
+            params[p[0]] = p[1];
+            if(p[0]=="category"){
+                   // category_code=	p[1];
+            }else if(p[0]=="statecode"){
+                    ni_str_state_code=p[1];
+            }
+            if(p[0]=="userid"){
+				ni_advertiserid=p[1];
+			}
+        }
+    }
+   if(ni_advertiserid!=0){
+		makeFrame1(category_code,ni_str_state_code,ni_ad_client,ni_subad_client,ni_advertiserid);
+
+	}else{
+	
+    makeFrame(category_code,ni_str_state_code,ni_ad_client,ni_subad_client);
+}	
+});
+</script>
+</head> 
+<body> 
+  <div id="loading">
+                     <img id="loading-image" src="https://www.keyverticals.com/assets/forms/images/loadiii.gif" alt="Loading..." />
+                 </div>
+         <script>
+      $("#loading").show();
+ $(document).ready(function(){
+  setTimeout(function(){
+      $("#loading").hide();
+  }, 1000);
+ 
+});
+</script>          
+</body> 
+</html>

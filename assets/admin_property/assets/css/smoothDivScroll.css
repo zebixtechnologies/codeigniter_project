@@ -1,0 +1,58 @@
+﻿.scroll
+{
+	width: 100%;
+	height: 240px;
+}
+
+.scrollingImg { 
+height:232px; 
+width: 360px;
+margin: 0 auto;
+}
+
+.scrollingImg .TabIcons {
+	width:60px; 
+	height:60px;
+	float:left;	
+	margin:4px;
+	padding:2px;
+	background-color:rgba(0, 0, 0, 0.4);
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	cursor:pointer;
+
+}
+
+.scrollingImg .TabIcons:hover {
+	background-color:rgba(0, 0, 0, 0.2);
+}
+.bxslider .scrollingImg .TabIcons  img{
+	width:60px; height:60px; display:block;
+	padding:2px;
+}
+
+.carousel-indicators { display:none;}
+
+.carousel-control {
+position: absolute;
+top: 9%;
+left: 0px;
+width: 30px;
+height: 232px;
+margin-top: -20px;
+text-align: center;
+background:none;
+border: none;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+opacity: 1;
+filter: alpha(opacity=100);
+}
+.carousel-control:hover {opacity: 1;
+filter: alpha(opacity=100);}
+.carousel-control.right {right: 0px;}
+.carousel-control.left {left: 0px;}

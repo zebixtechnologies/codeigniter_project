@@ -1,0 +1,42 @@
+
+<html>
+<head>
+<title>Best Rate Quotes from KeyVerticals</title>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+
+function makeFrame(category_code,ni_str_state_code,ni_ad_client,ni_subad_client) { 
+	if(category_code==""){
+		category_code="0";
+	}
+        ifrm = document.createElement("IFRAME"); 
+        ifrm.setAttribute("src", "http://localhost/keyverticals/keyverticals/home/auto?category="+category_code+"&statecode="+ni_str_state_code+"&publisherid="+ni_ad_client+"&subpublisherid="+ni_subad_client);
+        ifrm.style.width = "100%"; 
+        ifrm.style.height = "100%"; 
+        ifrm.style.border = "none";
+        document.body.appendChild(ifrm); 
+   }
+  $(window).load(function (){
+    ni_ad_client = "30";
+    ni_subad_client="0";
+    ni_str_state_code="";category_code="38";var params = {};
+    var ps = window.location.search.split(/\?|&/);
+    for (var i = 0; i < ps.length; i++) {
+        if (ps[i]) {
+            var p = ps[i].split(/=/);
+            params[p[0]] = p[1];
+            if(p[0]=="category"){
+                   // category_code=	p[1];
+            }else if(p[0]=="statecode"){
+                    ni_str_state_code=p[1];
+            }
+        }
+    }
+    makeFrame(category_code,ni_str_state_code,ni_ad_client,ni_subad_client);	
+});
+</script>
+</head> 
+<body> 
+ 
+</body> 
+</html>
